@@ -9,12 +9,13 @@
 <style>
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
     h1{
        font-size: 50px;
-        font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     }
-    .name-highlight{
+    .orange-highlight{
         color: orange;
     }
 .half-width{
@@ -26,19 +27,101 @@ body{
 .half-width img{
     width: 100%;
 }
+.topbanner{
+    background-image: url(images/top-banner.png);
+background-repeat: no-repeat;
+
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.hireme{
+    text-decoration: none;
+background-image: linear-gradient(45deg,lightsalmon, tomato);   
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right ;
+
+}
+p{
+    color: dimgray;
+}
+.single{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
 </style>
 </head>
 <body>
-   <section>
+   <section class="topbanner">
     <div class="half-width">
     <h1>Welcome to</h1>
-    <h1><span class="name-highlight">Jhankar</span> Website</h1>
+    <h1><span class="orange-highlight">Jhankar</span> Website</h1>
     <h3>A great web developer</h3>
     <p>You might have seen me jumping, climbing buildings and stopping trains. But nobody pays me a dime for that work. Thats why I am learning web development so that I can earn money and buy Mary Jane a nice diamond ring. I will not stop until i become the world's greatest web developer.</p>
+    <a class="hireme" target="_blank" href="https://web.programming-hero.com/home/">HIRE ME</a>
 </div>
 <div class="half-width">
     <img src="images/jhankar.png" alt="" srcset="">
 </div>
 </section>
+<section class="dream-area">
+    <div class="half-width">
+        <img src="images/jhankar2.png" alt="" srcset="">
+        </div>
+        <div class="half-width">
+        <h2>Big Dream</h2>
+        <h3>Become world's no. 1 web developer</h3>
+        <p>i am working very hard so that i can become the world's greatest web developer and work with companies like Apple, Amazon, Google etc.</p>
+        <a class="hireme" target="_blank" href="https://web.programming-hero.com/home/">DOWNLOAD RESUME</a>
+        </div>
+    
+</section>
+<h2>Experiences</h2>
+<section class="experience-area">
+    <div id="full-stack" class="half-width single">
+<h2>Full stack web developer</h2>
+<h3 class="orange-highlight" >2020-present ;Pro level Dev</h3>
+<p> I am the ghost of uchiha. i started countless wars to save you all and bring peace in this cursed world. Wake up to reality. nothing in this world goes according to plan.</p>
+    </div>
+
+<div id="full" class="half-width single">
+    <h2>Full stack web developer</h2>
+    <h3 class="orange-highlight">2020-present ;Pro level Dev</h3>
+    <p> I am the ghost of uchiha. i started countless wars to save you all and bring peace in this cursed world. Wake up to reality. nothing in this world goes according to plan.</p>
+</div>
+    
+</section>
+<footer>
+    <p>all rights reserved by deadpool</p>
+</footer>
 </body>
 </html>
